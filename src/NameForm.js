@@ -38,7 +38,7 @@ class NameForm extends React.Component {
     <center>
       <label >
         <font size="6" style={{ color: '#BF360C' }} > Welcome to the Fanzy world!  < /font> < br/> < br/>
-        <font size="4" style={{ color: 'blue' }}>What would you call yourself in Fanzy? </font> < br/>
+        <font size="4" style={{ color: 'red' }}>What would you call yourself in Fanzy? </font> < br/>
         <input type = "text"  value = {this.state.value}
         onChange = {this.handleChange } placeholder="User Name"/>< br/>
         <font size="2" style={{ color: 'red' }}>  Name should be between 3 to 20 characters < /font> <br /> <br/>
